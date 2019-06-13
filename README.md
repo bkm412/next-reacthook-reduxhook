@@ -121,14 +121,14 @@ export const counterAction = {
 export const increaseCount = (count) => {  
     return {  
         type : counterAction.INCREASE,  
-		payload : count  
+	payload : count  
     }  
 }  
   
 export const decreaseCount = (count) => {  
     return {  
         type : counterAction.DECREASE,  
-	    payload : count  
+    	payload : count  
     }  
 }
 ```
@@ -149,14 +149,14 @@ export default (state = initialState, action) => {
         case counterAction.INCREASE : {  
             return {  
                 ...state,  
-		        count : state.count + action.payload  
-		     }  
+		count : state.count + action.payload  
+	     }  
         }  
         case counterAction.DECREASE : {  
             return {  
                 ...state,  
-			    count : state.count - action.payload  
-		    }  
+		count : state.count - action.payload  
+	    }  
         }  
         default :  
             return state;  
@@ -240,9 +240,9 @@ import {counterAction, increaseCount, decreaseCount} from "../actions/counter";
   
 const Index = () => {  
   
-     const count = useSelector(state => state.counterReducer.count);  
-	 const dispatch = useDispatch();  
-	 const [payload, setPayload] = useState(0);  
+	const count = useSelector(state => state.counterReducer.count);  
+ 	const dispatch = useDispatch();  
+ 	const [payload, setPayload] = useState(0);  
   
 return (  
 	<div>  
