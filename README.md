@@ -248,11 +248,8 @@ return (
 	<div>  
 		<span>current count : {count}</span>  
 		<input type="number" onChange={(e) => setPayload(+e.target.value)}/><br/>  
-		<button onClick={() => dispatch({type : counterAction.INCREASE, payload})}>Increase</button><br/>  
-		<button onClick={() => dispatch({type : counterAction.DECREASE, payload})}>decrease</button>  
-		//or
-		//<button onClick={() => dispatch(increaseCount(payload))}>Increase</button><br/>  
-		//<button onClick={() => dispatch(decreaseCount(payload))}>decrease</button>
+		<button onClick={() => dispatch(increaseCount(payload))}>Increase</button><br/>  
+	        <button onClick={() => dispatch(decreaseCount(payload))}>decrease</button>
 	</div>  
 	)  
 };  
