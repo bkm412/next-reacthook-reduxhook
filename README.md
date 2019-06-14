@@ -259,6 +259,6 @@ export default Index;
 
 기존처럼 사용할 컴포넌트를 connect할 필요 없이 편리하게 사용할 수 있게 되었습니다.
 
-더 자세한 사항은 [React-redux - hooks]([https://react-redux.js.org/next/api/hooks](https://react-redux.js.org/next/api/hooks)) 를 참고하세요.
+더 자세한 사항은 [React-redux - hooks](https://react-redux.js.org/next/api/hooks) 를 참고하세요.
 
 감사합니다.
