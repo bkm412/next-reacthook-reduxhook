@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "next": "^8.1.0",
+    "next": "^11.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
